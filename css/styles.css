@@ -1,0 +1,270 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#signup-button-container, #signup-button-footer {
+    background: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body, footer {
+    font-family: "Roboto", sans-serif;
+    background-color: #1F2937;
+}
+
+.hero {
+    width: 100%;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 25%;
+    margin-bottom: 6%;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-flex;  /*transforms the text placement to horizontal.*/
+    padding: 10px 20px;
+
+}   
+
+nav ul li a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+h1 {
+    
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-container {
+    display: flex;
+    /*border: 1px solid white;*/
+    flex-direction: row;
+    /*padding-left: 45%; theory worked*/
+    margin-left: 16%;
+    margin-right: 16%;
+    justify-content: space-evenly;
+    padding-bottom: 70px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container h1 {
+    color: #ffffff;
+    margin-right: 33%;
+    text-align: left;
+    font-weight: 700;
+}
+
+.left-container span {
+    color: white;
+    margin-right: 30%;
+    font-size: 18px;
+}
+
+.right-container {
+    display: flex;
+    width: 800px;
+    margin-right: 11%;
+}
+
+#signup-button-container {
+    border: 1px solid black;
+    width: 130px;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+
+.w3-border {
+    margin-bottom: 50px;
+    background-color: gray;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-top: 19%;
+    padding-right: 20%;
+    padding-bottom: 19%;
+    padding-left: 22%;
+}
+
+header {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-text {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+}
+
+ul {
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+ul a {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.text-container {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.text-container h2 {
+    font-size: 36px;
+    
+    padding-bottom: 40px;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    /*border: 2px solid red;*/
+    margin-top: 20px;
+    height: auto;
+    width: 850px;
+}
+
+.image-placeholder-1 img {
+    height: 170px;
+    width: 170px;
+    border-radius: 15px;
+    border: 4px solid #3882F6;
+}
+
+.pepega {
+    font-size: 18px;
+    width: 170px;
+    text-align: center;
+}
+
+.placeholder-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: black;
+    padding-bottom: 11vh;
+}
+
+.placeholder-container p {
+    font-size: 36px;
+    font-weight: 0;
+    width: 1050px;
+    height: 300px;
+    padding: 120px;
+    color: #1F2937;
+}
+
+.signature {
+    margin-left: 60vh;
+    align-items: flex-start;
+    font-size: 24px;
+}
+
+.placeholder-container-2 {
+    display: block;
+    align-self: center;
+    background-color: #F9FAF8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30rem;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    margin: 45px;
+}
+
+.footer-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+    /*border: 1px solid black;*/
+}
+
+.placeholder-text-footer {
+    color: #F9FAF8;
+    padding-top: 3px;
+
+}
+
+#signup-button-footer {
+    border-color: #F9FAF8;
+    border-style: solid;
+    width: 130px;
+    height: 36px;
+    margin: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Things to try. Use shrink and spread methods.
+    Incorporate the font and button color to one CSS property to avoid repetition.
+ Second container done.
+    */
+
